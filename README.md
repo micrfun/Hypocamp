@@ -26,6 +26,7 @@ Read these documents in order:
 2. [`docs/workspace-structure.md`](docs/workspace-structure.md) — the recommended workspace layout.
 3. [`docs/agent-protocol.md`](docs/agent-protocol.md) — how agents should operate and hand off work.
 4. [`docs/agent-registry.md`](docs/agent-registry.md) — a minimal registration model for agents that share a workspace.
+5. [`docs/daily-reports.md`](docs/daily-reports.md) — how agents keep operational context current.
 
 To adopt Hypocamp, copy the structure into a private workspace and replace the examples with your own records. Keep personal and operational data out of this public repository.
 
@@ -39,6 +40,7 @@ This repository contains only the reusable product structure, documentation, tem
 docs/
   agent-registry.md
   agent-protocol.md
+  daily-reports.md
   architecture.md
   workspace-structure.md
 ```

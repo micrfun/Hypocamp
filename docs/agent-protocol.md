@@ -12,6 +12,14 @@ read current state
 → create a handoff
 ```
 
+## Daily reporting and shared learning
+
+After meaningful work, and at least once each working day, an agent should update one daily report. A report records objective, verified facts and sources, work completed, changed state, checks, risks, and the next safe action.
+
+Daily reports are the canonical source of current operational context. They do not replace the project repository as the source of truth for code and detailed technical state. When sources disagree, mark a conflict instead of silently choosing one.
+
+Reusable findings belong in a short shared-learning record with a link to the report, handoff, decision, or other evidence that supports it.
+
 ## Minimum handoff
 
 - Objective and scope.

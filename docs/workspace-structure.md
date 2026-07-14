@@ -12,6 +12,8 @@ workspace/
 │   └── workspace-structure.md
 ├── projects/
 ├── operations/
+│   ├── reports/
+│   └── lessons.md
 ├── decisions/
 └── skills/
 ```
@@ -19,7 +21,7 @@ workspace/
 Recommended private modules:
 
 - `projects/` — project registry and project-specific context.
-- `operations/` — inbox, current focus, reviews, and handoffs.
+- `operations/` — inbox, current focus, daily agent reports, reusable lessons, reviews, and handoffs.
 - `decisions/` — durable choices that affect structure or priorities.
 - `skills/` — portable procedures for agents.
 
