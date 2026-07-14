@@ -2,6 +2,8 @@
 
 The public core is intentionally small. A private deployment may extend it with records and adapters without changing the reusable contract.
 
+Use the repository's [`starter/`](../starter/) directory to create this private structure. Do not put user records in the public checkout.
+
 ```text
 workspace/
 ├── README.md

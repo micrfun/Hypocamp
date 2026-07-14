@@ -20,13 +20,25 @@ Hypocamp is in an early design and documentation phase. The public repository de
 
 ## Getting started
 
+### Start with an agent
+
+An agent can start from this repository without knowing a user's personal setup:
+
+1. Clone this repository and read [`AGENTS.md`](AGENTS.md).
+2. Follow [`docs/agent-bootstrap.md`](docs/agent-bootstrap.md) to create or identify a separate private workspace.
+3. Copy [`starter/`](starter/) into that private workspace.
+4. Let the agent register itself, capture the user's first request, and maintain daily reports there.
+
+The public clone is a guide and template. Do not use it to store a user's actual projects, decisions, commitments, or reports.
+
 Read these documents in order:
 
 1. [`docs/architecture.md`](docs/architecture.md) — the model and its boundaries.
-2. [`docs/workspace-structure.md`](docs/workspace-structure.md) — the recommended workspace layout.
-3. [`docs/agent-protocol.md`](docs/agent-protocol.md) — how agents should operate and hand off work.
-4. [`docs/agent-registry.md`](docs/agent-registry.md) — a minimal registration model for agents that share a workspace.
-5. [`docs/daily-reports.md`](docs/daily-reports.md) — how agents keep operational context current.
+2. [`docs/agent-bootstrap.md`](docs/agent-bootstrap.md) — the first-run procedure for an agent.
+3. [`docs/workspace-structure.md`](docs/workspace-structure.md) — the recommended workspace layout.
+4. [`docs/agent-protocol.md`](docs/agent-protocol.md) — how agents should operate and hand off work.
+5. [`docs/agent-registry.md`](docs/agent-registry.md) — a minimal registration model for agents that share a workspace.
+6. [`docs/daily-reports.md`](docs/daily-reports.md) — how agents keep operational context current.
 
 To adopt Hypocamp, copy the structure into a private workspace and replace the examples with your own records. Keep personal and operational data out of this public repository.
 
@@ -38,11 +50,18 @@ This repository contains only the reusable product structure, documentation, tem
 
 ```text
 docs/
+  agent-bootstrap.md
   agent-registry.md
   agent-protocol.md
   daily-reports.md
   architecture.md
   workspace-structure.md
+starter/
+  AGENTS.md
+  map.md
+  projects/
+  operations/
+  decisions/
 ```
 
 Hypocamp is designed to be adapted to a private workspace while keeping the public core reusable for other people and agent ecosystems.
