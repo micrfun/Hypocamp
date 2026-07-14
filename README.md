@@ -2,8 +2,6 @@
 
 Hypocamp is an open-source operational context layer for humans and AI agents.
 
-> Public design preview. The project license is not selected yet, so do not assume that the repository is currently licensed for reuse.
-
 It helps teams and individuals keep projects, goals, decisions, tasks, commitments, and agent handoffs understandable across tools and over time. Its guiding metaphor is an external context memory: consolidate fragments of work, map their relationships, and preserve the circumstances that make a fact meaningful.
 
 ## What it provides
@@ -65,6 +63,12 @@ starter/
 ```
 
 Hypocamp is designed to be adapted to a private workspace while keeping the public core reusable for other people and agent ecosystems.
+
+## License
+
+The public Hypocamp core is licensed under the [Apache License 2.0](LICENSE). You may use, copy, modify, distribute, and use it commercially, provided you keep the required license and attribution notices. It includes an explicit patent grant from contributors for patent claims necessarily infringed by their contributions.
+
+This license applies only to this public repository. A user's private workspace and its operational records remain private unless that user chooses otherwise.
 
 ## Contributing
 
