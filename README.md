@@ -4,7 +4,7 @@ Hypocamp is an open-source operational context layer for humans and AI agents.
 
 > Public design preview. The project license is not selected yet, so do not assume that the repository is currently licensed for reuse.
 
-It helps teams and individuals keep projects, goals, decisions, tasks, commitments, and agent handoffs understandable across tools and over time.
+It helps teams and individuals keep projects, goals, decisions, tasks, commitments, and agent handoffs understandable across tools and over time. Its guiding metaphor is an external context memory: consolidate fragments of work, map their relationships, and preserve the circumstances that make a fact meaningful.
 
 ## What it provides
 
@@ -25,6 +25,7 @@ Read these documents in order:
 1. [`docs/architecture.md`](docs/architecture.md) — the model and its boundaries.
 2. [`docs/workspace-structure.md`](docs/workspace-structure.md) — the recommended workspace layout.
 3. [`docs/agent-protocol.md`](docs/agent-protocol.md) — how agents should operate and hand off work.
+4. [`docs/agent-registry.md`](docs/agent-registry.md) — a minimal registration model for agents that share a workspace.
 
 To adopt Hypocamp, copy the structure into a private workspace and replace the examples with your own records. Keep personal and operational data out of this public repository.
 
@@ -36,6 +37,7 @@ This repository contains only the reusable product structure, documentation, tem
 
 ```text
 docs/
+  agent-registry.md
   agent-protocol.md
   architecture.md
   workspace-structure.md

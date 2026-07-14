@@ -2,6 +2,14 @@
 
 Hypocamp is an operational context layer. It stores the minimum shared model needed for people and agents to understand current work and continue it safely.
 
+## External context memory
+
+Hypocamp uses the hippocampus as a product metaphor, not a medical model. It should:
+
+- consolidate fragmented facts, decisions, and handoffs into a durable working context;
+- map projects, goals, commitments, and next actions so work can be navigated;
+- preserve context through sources, confidence, verification dates, and reasons for change.
+
 ## Layers
 
 ```text
