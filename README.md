@@ -2,6 +2,8 @@
 
 Hypocamp is an open-source operational context layer for humans and AI agents.
 
+> Public design preview. The project license is not selected yet, so do not assume that the repository is currently licensed for reuse.
+
 It helps teams and individuals keep projects, goals, decisions, tasks, commitments, and agent handoffs understandable across tools and over time.
 
 ## What it provides
@@ -11,6 +13,20 @@ It helps teams and individuals keep projects, goals, decisions, tasks, commitmen
 - Explicit evidence, freshness, and uncertainty markers.
 - A shared protocol for agents to read context, perform scoped work, and leave a verifiable handoff.
 - Derived views such as dashboards, graphs, and reports.
+
+## Project status
+
+Hypocamp is in an early design and documentation phase. The public repository defines the reusable model and agent methodology; a production application, stable schemas, and adapters are still being developed.
+
+## Getting started
+
+Read these documents in order:
+
+1. [`docs/architecture.md`](docs/architecture.md) — the model and its boundaries.
+2. [`docs/workspace-structure.md`](docs/workspace-structure.md) — the recommended workspace layout.
+3. [`docs/agent-protocol.md`](docs/agent-protocol.md) — how agents should operate and hand off work.
+
+To adopt Hypocamp, copy the structure into a private workspace and replace the examples with your own records. Keep personal and operational data out of this public repository.
 
 ## Privacy boundary
 
@@ -26,3 +42,11 @@ docs/
 ```
 
 Hypocamp is designed to be adapted to a private workspace while keeping the public core reusable for other people and agent ecosystems.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the contribution workflow. Proposals that change the data model or agent protocol should include a short decision record and explain compatibility impact.
+
+## Security
+
+See [`SECURITY.md`](SECURITY.md) for reporting security and privacy issues.
